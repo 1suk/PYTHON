@@ -1,11 +1,16 @@
-a = int(input("정수 1개를 입력 받아 1부터 그 수까지 쩍수의 합을 출력하시오:"))
-for i in range(1,a):
-    if i % 2 == 0:
-        continue
-        
-print(i)
+a = int(input("1개를 입력 받아 1부터 그 수까지 짝수의 합을 출력하시오:"))
+total = 0
 
-n = int(input('1~100'))
-sum = 0
-for i in range(n+1):
-    if(i%2)
+for i in range(1, a):
+	if i % 2 ==0:
+	    total += i
+
+print(total)
+
+while True:
+    a = input("영문 소문자 q가 입력될 까지 입력 문자를 무한 출력하시오:")
+    a = str(a)
+    if(a == 'q'):
+        break
+    else:
+	    print(a)

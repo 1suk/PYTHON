@@ -16,3 +16,5 @@ print(min(a,b,c)) # min(작은값) 함수 활용, 참고 : max, avg 등
 
 a, b, c = map(int,input('입력한 3개 정수 중 작은값 판단 2(3항 연산자)').split())
 print((a if (a<b) else b)if ((a if (a<b) else b)<c) else c) # 3항 연산자 활용
+
+#map 함수를 이용하자.
