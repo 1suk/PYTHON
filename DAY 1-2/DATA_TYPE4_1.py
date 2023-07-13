@@ -8,10 +8,10 @@ print(type(array)) # 현재 자료구조 타입 확인
 array[2][1] = 5
 print(array)
 
+# 별표, 문제 많이 나옴
 a = [1, 4, 3]
 print("기본 리스트: ", a)
 
-# 별표 문제 많이 나옴
 a.append(2) # 리스트에 원소 삽입
 print("삽입: ", a)
 
