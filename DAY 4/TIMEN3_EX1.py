@@ -19,3 +19,6 @@ print('최종 3이 카운트 된 결과는 :', count)
 end_time = time.time() # 측정 종료
 print("time:", format(end_time - start_time, '.10f')) # 정확도 소수 아래 10자리로 수행 시간 출력
 print('MB bytes :', process.memory_info().rss / (1024.0 * 1024.0)) # 해당 프로세스 메모리 공간, 메가 바이트 단위 출력
+
+
+
